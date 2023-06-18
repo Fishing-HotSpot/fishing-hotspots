@@ -25,15 +25,18 @@ body {
     margin: 80px;
     text-decoration: none;
     color: forestgreen;
+    font-weight: bolder;
 
 }
 
 .search {
     text-align: end;
- 
-   
+    
+
 }
 
 #radnor-h1{
     color: forestgreen;
+    font-weight: bolder;
+    font-style: italic;
 }
