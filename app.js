@@ -4,7 +4,7 @@
 let chart = document.getElementById('chart-canvas').getContext('2d');
 
 let chart1 = new Chart(chart, {
-  type: 'bar',
+  type: 'doughnut',
   data: {
     labels: ['Bass", "Catfish", "Trout", "Blue Gill'],
     datasets: [
