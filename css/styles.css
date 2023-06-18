@@ -22,14 +22,14 @@ body {
     font-style: italic;
     text-align: center;
     padding: 40px;
-    margin: 80px;
+    margin: 150px;
     text-decoration: none;
     color: forestgreen;
     font-weight: bolder;
 
 }
 
-.search {
+.search-form {
     text-align: end;
     
 
