@@ -5,3 +5,24 @@ body {
 #radnor-1 {
     background-color: black;
 }
+
+#radnor-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    justify-content: space-evenly;
+    padding: 305px;
+    margin: auto;
+    width: 500px;
+}
+
+.radnor-a {
+    font-size: 40px;
+    justify-content:  space-evenly;
+    font-style: italic;
+    text-align: center;
+    padding: 40px;
+    margin: 80px;
+
+}
+
