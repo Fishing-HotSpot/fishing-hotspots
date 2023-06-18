@@ -1,6 +1,7 @@
 "use script";
 
-let chart = document.getElementById('chart').getContext('2d');
+// Brian's Radnor lake chart code Begining 
+let chart = document.getElementById('chart-canvas').getContext('2d');
 
 let chart1 = new Chart(chart, {
   type: 'bar',
@@ -15,4 +16,6 @@ let chart1 = new Chart(chart, {
   },
   options: {},
 });
-console.log(Chart);
+console.log(chart);
+
+// Where i stopped working on  Next person start five lines below me!
