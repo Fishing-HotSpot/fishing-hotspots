@@ -24,6 +24,16 @@ body {
     padding: 40px;
     margin: 80px;
     text-decoration: none;
+    color: forestgreen;
 
 }
 
+.search {
+    text-align: end;
+ 
+   
+}
+
+#radnor-h1{
+    color: forestgreen;
+}
