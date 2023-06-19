@@ -20,3 +20,7 @@ let chart1 = new Chart(chart, {
 // Where i stopped working on  Next person start five lines below me!
 
 
+
+
+
+// Beginning of Justin's code
