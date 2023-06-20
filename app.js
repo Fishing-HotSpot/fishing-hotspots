@@ -1,27 +1,3 @@
-"use script";
-<<<<<<< HEAD
-let chart;
-let ctx = document.getElementById("canvas-chart-b");
-let dataObj = {
-  type: "doughnut",
-  data: {
-    labels: [
-      "Largemouth Bass",
-      "Crappie",
-      "Striped Bass",
-      "Sauger",
-      "Channel Catfish",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [],
-      },
-    ],
-  },
-};
-=======
-
 // Brian's Radnor lake chart code Begining
 let chart = document.getElementById("chart-canvas").getContext("2d");
 
@@ -41,9 +17,27 @@ let chart1 = new Chart(chart, {
 
 // Where i stopped working on  Next person start five lines below me!
 
+// Start of Mu's code
 
-
-
+chart;
+let ctx = document.getElementById("canvas-chart-b");
+let dataObj = {
+  type: "doughnut",
+  data: {
+    labels: [
+      "Largemouth Bass",
+      "Crappie",
+      "Striped Bass",
+      "Sauger",
+      "Channel Catfish",
+    ],
+    datasets: [
+      {
+        label: "Fish Population",
+        data: [],
+      },
+    ],
+  },
+};
 
 // Beginning of Justin's code
->>>>>>> main
