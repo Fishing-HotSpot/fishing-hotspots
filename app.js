@@ -28,8 +28,14 @@ let searchEngine = [
   new Lake("Old Hickory", [22000, 18000, 12200, 10000]),
 ];
 
+function lakeCount () {
+for (let i = 0; i < searchEngine.length; i++) 
+} 
+
+
+
 
 
 // Where i stopped working on  Next person start five lines below me!
 
-// Beginning of Justin's code
+
