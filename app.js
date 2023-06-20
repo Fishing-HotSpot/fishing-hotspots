@@ -15,10 +15,23 @@ let chart1 = new Chart(chart, {
   options: {},
 });
 
-// Where i stopped working on  Next person start five lines below me!
+function Lake(name, fishPopulation) {
+  this.name = name;
+  this.fishPopulation = fishPopulation;
+}
 
-// Start of Mu's code
+let searchEngine = [
+  new Lake("Radnor", [22000, 18000, 12200, 10000]),
+  new Lake("Percy Priest", [22000, 18000, 12200, 10000]),
+  new Lake("Old Hickory", [22000, 18000, 12200, 10000]),
+];
 
+
+function lakeCount () {
+for (let i = 0; i < searchEngine.length; i++) 
+} 
+
+//Start of Mu Code
 chart;
 let ctx = document.getElementById("canvas-chart-b");
 let dataObj = {
@@ -40,4 +53,8 @@ let dataObj = {
   },
 };
 
+
+// Where i stopped working on  Next person start five lines below me!
+
 // Beginning of Justin's code
+
