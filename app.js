@@ -1,5 +1,4 @@
 "use script";
-
 let chart;
 let ctx = document.getElementById("canvas-chart-b");
 let dataObj = {
