@@ -46,7 +46,7 @@ let dataObj = {
     datasets: [
       {
         label: "Fish Population",
-        data: [],
+        data: [22000, 18000, 12200, 10000, 16000],
       },
     ],
   },
