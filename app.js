@@ -1,5 +1,3 @@
-"use script";
-
 // Brian's Radnor lake chart code Begining
 let chart = document.getElementById("chart-canvas").getContext("2d");
 
@@ -38,4 +36,5 @@ for (let i = 0; i < searchEngine.length; i++)
 
 // Where i stopped working on  Next person start five lines below me!
 
+// Beginning of Justin's code
 
