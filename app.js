@@ -31,7 +31,7 @@ let searchEngine = [
 let form = document.querySelector(".search-form");
 let searchButton = document.getElementById("search-button");
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   lakeCount();
@@ -40,13 +40,13 @@ form.addEventListener("submit", function(event) {
 function lakeCount() {
   let searchInput = document.getElementById("search-input");
   let searchTerm = searchInput.value.trim();
-  let searchResults = searchEngine.filter(function(lake) {
+  let searchResults = searchEngine.filter(function (lake) {
     return lake.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
   chartData.datasets = [];
 
-  searchResults.forEach(function(lake) {
+  searchResults.forEach(function (lake) {
     let dataset = {
       label: lake.name,
       data: lake.fishPopulation,
@@ -58,33 +58,9 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-
 //Start of Mu Code
 
-chart = document.getElementById("canvas-chart-b");
-
-let chart2 = new Chart(chart, {
-  type: "line",
-  data: {
-    labels: [
-      "Largemouth Bass",
-      "Crappie",
-      "Striped Bass",
-      "Sauger",
-      "Channel Catfish",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [22000, 18000, 12200, 10000, 16000],
-      },
-    ],
-  },
-  options: {},
-});
-
 // Where i stopped working on  Next person start five lines below me!
-
 
 let ctx1 = document.getElementById("chart-canvas");
 
