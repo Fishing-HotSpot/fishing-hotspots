@@ -58,10 +58,6 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-//Start of Mu Code
-
-// Where i stopped working on  Next person start five lines below me!
-
 let ctx1 = document.getElementById("chart-canvas");
 
 ctx1 = new Chart(chart, {
