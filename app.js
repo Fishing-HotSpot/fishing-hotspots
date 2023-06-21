@@ -55,12 +55,18 @@ let dataObj = {
 // Where i stopped working on  Next person start five lines below me!
 
 // Beginning of Justin's code
-let ctx = document.getElementById("chart-canvas");
+let ctx1 = document.getElementById("chart-canvas");
 
-let ctx1 = new Chart(chart, {
+ctx1 = new Chart(chart, {
   type: "pie",
   data: {
-    labels: ["Largemouth bass", "White bass", "Bluegill", "Striped bass", "Smallmouth bass"],
+    labels: [
+      "Largemouth bass",
+      "White bass",
+      "Bluegill",
+      "Striped bass",
+      "Smallmouth bass",
+    ],
     datasets: [
       {
         label: "Fish Population",
