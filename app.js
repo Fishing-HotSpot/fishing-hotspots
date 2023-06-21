@@ -33,7 +33,8 @@ function lakeCount() {
 //Start of Mu Code
 
 chart = document.getElementById("canvas-chart-b");
-chart2 = new Chart(chart, {
+
+let chart2 = new Chart(chart, {
   type: "line",
   data: {
     labels: [
