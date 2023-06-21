@@ -32,28 +32,43 @@ function lakeCount() {
 
 //Start of Mu Code
 
-chart = document.getElementById("canvas-chart-b");
+chart;
+function displayChart(data) {
+  if (chart !== undefined) {
+    chart.destroy();
+  }
+  let labels = getLabelData(data);
+  let ctx = document.getElementById("chart-canvas-b");
+  let dataObj = {
+    type: "line",
+    data: {
+      labels: [
+        "Largemouth Bass",
+        "Crappie",
+        "Striped Bass",
+        "Sauger",
+        "Channel Catfish",
+      ],
+      datasets: [
+        {
+          label: "Fish Population",
+          data: [22000, 18000, 12200, 10000, 16000],
+        },
+      ],
+    },
+  };
+  chart = new Chart(ctx, dataObj);
+}
 
-let chart2 = new Chart(chart, {
-  type: "line",
-  data: {
-    labels: [
-      "Largemouth Bass",
-      "Crappie",
-      "Striped Bass",
-      "Sauger",
-      "Channel Catfish",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [22000, 18000, 12200, 10000, 16000],
-      },
-    ],
-  },
-  options: {},
-});
+displayChart(data);
 
+function getLabelData(data) {
+  let labels = [];
+  for (let data of data) {
+    labels.push(data);
+  }
+  return labels;
+}
 // Where i stopped working on  Next person start five lines below me!
 
 // Beginning of Justin's code
