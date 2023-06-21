@@ -24,3 +24,18 @@ let chart1 = new Chart(chart, {
 
 
 // Beginning of Justin's code
+let ctx = document.getElementById("chart-canvas");
+
+let ctx1 = new Chart(chart, {
+  type: "pie",
+  data: {
+    labels: ["Largemouth bass", "White bass", "Bluegill", "Striped bass", "Smallmouth bass"],
+    datasets: [
+      {
+        label: "Fish Population",
+        data: [],
+      },
+    ],
+  },
+  options: {},
+});

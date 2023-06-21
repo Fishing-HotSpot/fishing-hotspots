@@ -40,4 +40,28 @@ body {
 
 #percy-b {
   background-color: burlywood;
+  font-size: x-large;
+  text-align: center;
+}
+
+#percy-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-evenly;
+  padding: 105px;
+  margin: auto;
+  width: 500px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-size: 45px;
+  justify-content: space-evenly;
+  font-style: oblique;
 }
