@@ -60,9 +60,10 @@ function lakeCount() {
 
 
 //Start of Mu Code
-chart;
-let ctx = document.getElementById("canvas-chart-b");
-let dataObj = {
+
+chart = document.getElementById("canvas-chart-b");
+
+let chart2 = new Chart(chart, {
   type: "line",
   data: {
     labels: [
@@ -79,7 +80,8 @@ let dataObj = {
       },
     ],
   },
-};
+  options: {},
+});
 
 // Where i stopped working on  Next person start five lines below me!
 
