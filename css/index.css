@@ -2,9 +2,11 @@
   font-size: 50px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-shadow: slategrey;
-  text-emphasis-color: black;
+  text-emphasis-color: white;
   text-align: center;
   padding: 100px;
+  font-style: italic;
+  font-weight: bold;
 }
 
 #main-page {
@@ -20,6 +22,7 @@
   text-align: center;
   text-justify: newspaper;
   flex-wrap: wrap;
+  font-weight: bold;
 }
 
 #links {
@@ -28,4 +31,7 @@
   color: black;
   display: flex;
   justify-content: space-evenly;
+  font-style: oblique;
+  font-weight: bolder;
+  text-decoration: none;
 }
