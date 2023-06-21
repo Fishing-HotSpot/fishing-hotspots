@@ -28,6 +28,10 @@ body {
   font-weight: bolder;
 }
 
+#history {
+  color: forestgreen;
+}
+
 .search-form {
   text-align: end;
 }
