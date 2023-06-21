@@ -28,6 +28,10 @@ body {
   font-weight: bolder;
 }
 
+#history {
+  color: forestgreen;
+}
+
 .search-form {
   text-align: end;
 }
@@ -56,12 +60,14 @@ body {
 
 h1 {
   font-size: 50px;
-  font-style: italic;
+  font-style: bold;
+  color: black;
 }
 
 p {
   text-align: center;
-  font-size: 45px;
+  font-size: 40px;
   justify-content: space-evenly;
-  font-style: oblique;
+  font-style: bold;
+  color: black;
 }
