@@ -34,7 +34,7 @@ function lakeCount() {
 chart;
 let ctx = document.getElementById("canvas-chart-b");
 let dataObj = {
-  type: "doughnut",
+  type: "line",
   data: {
     labels: [
       "Largemouth Bass",
