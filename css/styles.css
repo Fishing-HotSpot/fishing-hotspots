@@ -1,3 +1,67 @@
 body {
-    background-color: forestgreen;
+  background-color: forestgreen;
+}
+
+#radnor-1 {
+  background-color: black;
+}
+
+#radnor-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-evenly;
+  padding: 305px;
+  margin: auto;
+  width: 500px;
+}
+
+.radnor-a {
+  font-size: 40px;
+  justify-content: space-evenly;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: 80px;
+  text-decoration: none;
+  color: forestgreen;
+  font-weight: bolder;
+}
+
+.search-form {
+  text-align: end;
+}
+
+#radnor-h1 {
+  color: forestgreen;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#percy-b {
+  background-color: burlywood;
+  font-size: x-large;
+  text-align: center;
+}
+
+#percy-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  justify-content: space-evenly;
+  padding: 105px;
+  margin: auto;
+  width: 500px;
+}
+
+h1 {
+  font-size: 50px;
+  font-style: italic;
+}
+
+p {
+  text-align: center;
+  font-size: 45px;
+  justify-content: space-evenly;
+  font-style: oblique;
 }
