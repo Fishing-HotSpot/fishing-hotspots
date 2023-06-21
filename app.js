@@ -61,7 +61,7 @@ searchInput.value = "";
 chart;
 let ctx = document.getElementById("canvas-chart-b");
 let dataObj = {
-  type: "doughnut",
+  type: "line",
   data: {
     labels: [
       "Largemouth Bass",
@@ -81,4 +81,25 @@ let dataObj = {
 
 // Where i stopped working on  Next person start five lines below me!
 
-// Beginning of Justin's code
+
+let ctx1 = document.getElementById("chart-canvas");
+
+ctx1 = new Chart(chart, {
+  type: "pie",
+  data: {
+    labels: [
+      "Largemouth bass",
+      "White bass",
+      "Bluegill",
+      "Striped bass",
+      "Smallmouth bass",
+    ],
+    datasets: [
+      {
+        label: "Fish Population",
+        data: [],
+      },
+    ],
+  },
+  options: {},
+});
