@@ -4,9 +4,13 @@
   text-shadow: slategrey;
   text-emphasis-color: white;
   text-align: center;
+<<<<<<< HEAD
   padding: 100px;
   font-style: italic;
   font-weight: bold;
+=======
+  padding: 75px;
+>>>>>>> de5879a8f8f4b2c6d643242cbe3afdce2e3e73d7
 }
 
 #main-page {
@@ -17,7 +21,7 @@
 }
 
 #description {
-  margin-top: 75px;
+  margin-top: 40px;
   font-size: 30px;
   text-align: center;
   text-justify: newspaper;
