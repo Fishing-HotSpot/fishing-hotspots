@@ -60,7 +60,13 @@ let ctx = document.getElementById("chart-canvas");
 let ctx1 = new Chart(chart, {
   type: "pie",
   data: {
-    labels: ["Largemouth bass", "White bass", "Bluegill", "Striped bass", "Smallmouth bass"],
+    labels: [
+      "Largemouth bass",
+      "White bass",
+      "Bluegill",
+      "Striped bass",
+      "Smallmouth bass",
+    ],
     datasets: [
       {
         label: "Fish Population",
