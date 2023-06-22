@@ -4,7 +4,7 @@
   text-shadow: slategrey;
   text-emphasis-color: black;
   text-align: center;
-  padding: 100px;
+  padding: 75px;
 }
 
 #main-page {
@@ -15,7 +15,7 @@
 }
 
 #description {
-  margin-top: 75px;
+  margin-top: 40px;
   font-size: 30px;
   text-align: center;
   text-justify: newspaper;
