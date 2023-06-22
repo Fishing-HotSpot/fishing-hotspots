@@ -3,11 +3,11 @@
 let chart = document.getElementById("canvas-chart").getContext("2d");
 
 let chartData = {
-    labels: ["Bass", "Catfish", "Trout", "Blue Gill"],
+    labels: ["Largemouth Bass", "White Bass", "Blue Gill", "Striped Bass", "Smallmouth Bass"],
     datasets: [
         {
             label: "Fish Population",
-            data: [22000, 18000, 12200, 10000],
+            data: [25000, 16000, 12500, 10000, 17600],
         },
     ],
 };
