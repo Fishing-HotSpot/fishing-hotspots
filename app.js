@@ -58,6 +58,7 @@ function lakeCount() {
   searchInput.value = "";
 }
 
+//Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
 ctx1 = new Chart(chart, {
