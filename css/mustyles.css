@@ -27,8 +27,6 @@
 
 h1 {
   text-align: center;
-  font-size: 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #old-hickory-lake {
@@ -38,18 +36,23 @@ h1 {
   justify-content: space-evenly;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
   height: 250px;
   width: 500px;
 }
 
 p {
   text-align: center;
-  font-size: 50px;
+  font-size: px;
+  margin: auto;
 }
 
 #link {
+  margin-top: 20px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+}
+
+a {
+  color: black;
 }
