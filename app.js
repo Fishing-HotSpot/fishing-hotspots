@@ -31,7 +31,7 @@ let searchEngine = [
 let form = document.querySelector(".search-form");
 let searchButton = document.getElementById("search-button");
 
-form.addEventListener("submit", function(event) {
+form.addEventListener("submit", function (event) {
   event.preventDefault();
 
   lakeCount();
@@ -40,13 +40,13 @@ form.addEventListener("submit", function(event) {
 function lakeCount() {
   let searchInput = document.getElementById("search-input");
   let searchTerm = searchInput.value.trim();
-  let searchResults = searchEngine.filter(function(lake) {
+  let searchResults = searchEngine.filter(function (lake) {
     return lake.name.toLowerCase().includes(searchTerm.toLowerCase());
   });
 
   chartData.datasets = [];
 
-  searchResults.forEach(function(lake) {
+  searchResults.forEach(function (lake) {
     let dataset = {
       label: lake.name,
       data: lake.fishPopulation,
@@ -59,6 +59,7 @@ function lakeCount() {
 }
 
 
+<<<<<<< HEAD
 //Start of Mu Code
 chart;
 let ctx = document.getElementById("canvas-chart-b");
@@ -83,8 +84,12 @@ let dataObj = {
 
 
 // Where i stopped working on  Next person start five lines below me!
+=======
+// andrea slide show 
+>>>>>>> main
 
 
+//Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
 ctx1 = new Chart(chart, {

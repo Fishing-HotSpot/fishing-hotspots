@@ -1,6 +1,8 @@
 #hickory {
   background-color: darkkhaki;
   animation: color 5s;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
 }
 
 @keyframes color {
@@ -27,8 +29,6 @@
 
 h1 {
   text-align: center;
-  font-size: 30px;
-  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 #old-hickory-lake {
@@ -38,17 +38,29 @@ h1 {
   justify-content: space-evenly;
   margin: auto;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   height: 250px;
   width: 500px;
 }
 
 p {
   text-align: center;
+  margin-bottom: 50px;
+}
+
+#chart-canvas-b {
+  padding: 50px;
+  margin-bottom: 50px;
+  height: 100px;
 }
 
 #link {
+  margin-top: 20px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
+}
+
+a {
+  color: black;
 }
