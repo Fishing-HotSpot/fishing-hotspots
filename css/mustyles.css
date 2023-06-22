@@ -41,6 +41,10 @@ h1 {
   margin-bottom: 50px;
   height: 250px;
   width: 500px;
+  box-shadow: 10px 10px 5px #000000;
+  -moz-box-shadow: 10px 10px 5px #000000;
+  -webkit-box-shadow: 10px 10px 5px #000000;
+  -khtml-box-shadow: 10px 10px 5px #000000;
 }
 
 p {
