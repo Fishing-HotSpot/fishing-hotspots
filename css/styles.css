@@ -81,7 +81,7 @@ p {
   font-size: 40px;
   justify-content: space-evenly;
   font-style: bold;
-  color: white;
+  color: black;
 }
 
 /* about us styles */
@@ -116,4 +116,10 @@ article {
   display: flex;
   flex-direction: column;
   gap: 100px;
+}
+
+.radnor-j {
+  text-decoration: none;
+  margin: 55px;
+  padding-top: 15px;
 }
