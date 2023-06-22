@@ -1,5 +1,3 @@
-"use script";
-
 "use strict";
 
 let voterLimit = 50;
@@ -16,9 +14,9 @@ function Lake(name, imgSrc) {
   this.voteCount = 0;
 }
 
-let oldhickory = new Lake("old-hickory", "/img/Old hickory Lake.jpeg");
-let percy = new Lake("percy", "/img/Percy Priest Lake.jpeg");
-let radnor = new Lake("radnor", "/img/Radnor Lake .jpeg");
+let oldhickory = new Lake("Old Hickory Lake", "/img/Old hickory Lake.jpeg");
+let percy = new Lake("Percy Priest Lake", "/img/Percy Priest Lake.jpeg");
+let radnor = new Lake("Radnor Lake", "/img/Radnor Lake .jpeg");
 
 let lakeArray = [];
 
