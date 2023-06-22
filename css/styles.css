@@ -71,8 +71,9 @@ body {
 
 h1 {
   font-size: 50px;
-  font-style: bold;
+  font-style: italic;
   color: black;
+  font-weight: bolder;
 }
 
 p {
@@ -83,6 +84,18 @@ p {
   color: white;
 }
 
+<<<<<<< HEAD
+.percy-j {
+  font-size: 30px;
+  justify-content: space-evenly;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: 80px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+=======
 /* about us styles */
 
 .img-container {
@@ -115,4 +128,8 @@ article {
   display: flex;
   flex-direction: column;
   gap: 100px;
+>>>>>>> de5879a8f8f4b2c6d643242cbe3afdce2e3e73d7
 }
+
+
+
