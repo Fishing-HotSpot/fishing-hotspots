@@ -2,7 +2,7 @@
 
 "use strict";
 
-let voterLimit = 25;
+let voterLimit = 50;
 let votingArea = document.getElementById("voting-area");
 let resultsArea = document.getElementById("results-area");
 
@@ -16,9 +16,9 @@ function Lake(name, imgSrc) {
   this.voteCount = 0;
 }
 
-let oldhickory = new Lake("old-hickory", "./img/Old hickory Lake.jpeg");
-let percy = new Lake("percy", "./img/Percy Priest Lake.jpeg");
-let radnor = new Lake("radnor", "./img/Radnor Lake.jpeg");
+let oldhickory = new Lake("old-hickory", "/img/Old hickory Lake.jpeg");
+let percy = new Lake("percy", "/img/Percy Priest Lake.jpeg");
+let radnor = new Lake("radnor", "/img/Radnor Lake .jpeg");
 
 let lakeArray = [];
 
