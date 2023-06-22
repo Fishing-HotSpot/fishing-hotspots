@@ -59,7 +59,34 @@ function lakeCount() {
 }
 
 
+<<<<<<< HEAD
+//Start of Mu Code
+chart;
+let ctx = document.getElementById("canvas-chart-b");
+let dataObj = {
+  type: "line",
+  data: {
+    labels: [
+      "Largemouth Bass",
+      "Crappie",
+      "Striped Bass",
+      "Sauger",
+      "Channel Catfish",
+    ],
+    datasets: [
+      {
+        label: "Fish Population",
+        data: [22000, 18000, 12200, 10000, 16000],
+      },
+    ],
+  },
+};
+
+
+// Where i stopped working on  Next person start five lines below me!
+=======
 // andrea slide show 
+>>>>>>> main
 
 
 //Start of Justin Code
