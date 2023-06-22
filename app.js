@@ -58,6 +58,10 @@ function lakeCount() {
   searchInput.value = "";
 }
 
+
+// andrea slide show 
+
+
 //Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
