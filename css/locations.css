@@ -3,7 +3,7 @@
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background: linear-gradient(
     90deg,
-    rgba(2, 0, 36, 1) 0%,
+    rgb(28, 36, 0) 0%,
     rgba(118, 121, 9, 1) 35%,
     rgba(0, 212, 255, 1) 100%
   );
@@ -11,6 +11,22 @@
 
 header {
   text-align: center;
+}
+
+#Vote {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#link {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+}
+
+a {
+  color: black;
 }
 
 #voting-area {
