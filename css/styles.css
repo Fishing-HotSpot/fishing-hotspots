@@ -1,5 +1,5 @@
 body {
-  background-color: forestgreen;
+  background-color: rgb(34, 101, 139);
 }
 
 #radnor-1 {
@@ -37,6 +37,10 @@ body {
   text-decoration: none;
   color: forestgreen;
   font-weight: bolder;
+}
+
+#history {
+  color: forestgreen;
 }
 
 .search-form {

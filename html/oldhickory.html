@@ -3,35 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/project-doc/css/styles.css" />
-    <link rel="stylesheet" href="/project-doc/css/reset.css" />
+    <link rel="stylesheet" href="/css/mustyles.css" />
+    <link rel="stylesheet" href="/css/reset.css" />
     <title>Old Hickory Lake</title>
   </head>
-  <body>
-    <header><h1>Old Hickory Lake</h1></header>
+
+  <body id="hickory">
+    <header>
+      <h1>Old Hickory Lake</h1>
+    </header>
     <img
       alt="old-hickory-lake"
       id="old-hickory-lake"
-      src="/project-doc/img/Old hickory Lake.jpeg"
+      src="/img/Old hickory Lake.jpeg"
     />
+
     <main>
+      <p>Old Hickory Lake is located in North Central Tennessee.</p>
       <p>
-        Old Hickory Lake is located in North Central Tennessee. This lake is
-        97.5 river miles and is a top fishing hotspot for the ever popular
-        Largemouth Bass along with, Crappie, Striped Bass, Sauger, and Channel
-        Catfish.
+        This lake is 97.5 river miles and is a top fishing hotspot for the ever
+        popular Largemouth Bass along with, Crappie, Striped Bass, Sauger, and
+        Channel Catfish.
       </p>
       <div class="container">
         <canvas id="chart-canvas-b"></canvas>
       </div>
     </main>
-    <div>
-      <a class="old-hickory" href="/html/radnor.html"> Radnor Lake </a>
-      <a class="old-hickory" href="/html/percy.html"> Percy Priest</a>
-      <a class="old-hickory" href="/html/aboutus.html"> About Us</a>
+
+    <div id="link">
+      <p><a class="old-hickory" href="/html/radnor.html"> Radnor Lake </a></p>
+      <p><a class="old-hickory" href="/html/percy.html"> Percy Priest</a></p>
+      <p><a class="old-hickory" href="/html/locations.html"> Locations</a></p>
+      <p><a class="old-hickory" href="/html/aboutus.html"> About Us</a></p>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+    <script src="/app2.js"></script>
   </body>
 </html>
