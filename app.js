@@ -58,7 +58,19 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-//Start of Justin's Code
+//Mu Chart Code
+
+("use strict");
+
+const fishTypes = [
+  "Largemouth bass",
+  "White bass",
+  "Bluegill",
+  "Striped bass",
+  "Smallmouth bass",
+];
+
+//Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
 ctx1 = new Chart(chart, {
