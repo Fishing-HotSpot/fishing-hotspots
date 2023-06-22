@@ -2,7 +2,7 @@
 
 "use strict";
 
-let voterLimit = 25;
+let voterLimit = 50;
 let votingArea = document.getElementById("voting-area");
 let resultsArea = document.getElementById("results-area");
 
@@ -16,9 +16,9 @@ function Lake(name, imgSrc) {
   this.voteCount = 0;
 }
 
-let oldhickory = new Lake("old-hickory", "./img/Old hickory Lake.jpeg");
-let percy = new Lake("percy", "./img/Percy Priest.jpeg");
-let radnor = new Lake("radnor", "./img/Radnor Lake.jpeg");
+let oldhickory = new Lake("old-hickory", "/img/Old hickory Lake.jpeg");
+let percy = new Lake("percy", "/img/Percy Priest Lake.jpeg");
+let radnor = new Lake("radnor", "/img/Radnor Lake .jpeg");
 
 let lakeArray = [];
 
@@ -26,7 +26,7 @@ lakeArray.push(oldhickory);
 lakeArray.push(percy);
 lakeArray.push(radnor);
 
-function setProductImages(lake1, lake2, lake3) {
+function setLakeImages(lake1, lake2, lake3) {
   lake1Img.src = lake1.imgSrc;
   lake1Img.alt = lake1.name;
   lake1Img.title = lake1.name;
@@ -42,7 +42,7 @@ function getRandomInt() {
   return Math.floor(Math.random() * lakeArray.length);
 }
 
-function setRandomProductImages() {
+function setRandomLakeImages() {
   let lakeIndex1 = getRandomInt(lakeArray.length);
   let lakeIndex2 = getRandomInt(lakeArray.length);
   let lakeIndex3 = getRandomInt(lakeArray.length);
@@ -55,13 +55,13 @@ function setRandomProductImages() {
     lakeIndex2 = getRandomInt(lakeArray.length);
     lakeIndex3 = getRandomInt(lakeArray.length);
   }
-  let lake1 = productArray[lakeIndex1];
-  let lake2 = productArray[lakeIndex2];
-  let lake3 = productArray[lakeIndex3];
-  setProductImages(lake1, lake2, lake3);
+  let lake1 = lakeArray[lakeIndex1];
+  let lake2 = lakeArray[lakeIndex2];
+  let lake3 = lakeArray[lakeIndex3];
+  setLakeImages(lake1, lake2, lake3);
 }
 
-setRandomProductImages();
+setRandomLakeImages();
 
 function handleProductClick(event) {
   console.log("clicked!!");
@@ -82,7 +82,7 @@ function handleProductClick(event) {
   if (voterLimit == 0) {
     votingArea.removeEventListener("click", handleProductClick);
   }
-  setRandomProductImages();
+  setRandomLakeImages();
 }
 
 votingArea.addEventListener("click", handleProductClick);

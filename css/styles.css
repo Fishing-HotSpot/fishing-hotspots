@@ -27,6 +27,17 @@ body {
   color: forestgreen;
   font-weight: bolder;
 }
+.radnor-a {
+  font-size: 40px;
+  justify-content: space-evenly;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: 80px;
+  text-decoration: none;
+  color: forestgreen;
+  font-weight: bolder;
+}
 
 #history {
   color: forestgreen;
@@ -72,4 +83,18 @@ p {
   color: black;
 }
 
+<<<<<<< HEAD
 
+=======
+.radnor-j {
+  font-size: 40px;
+  justify-content: space-evenly;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: 50px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+>>>>>>> main
