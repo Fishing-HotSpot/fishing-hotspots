@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/slideshow.css" />
+    <title>Slide Show</title>
+  </head>
+
+  <h1 class="a-bhom">About Us</h1>
+
+  <body onload="autoRun()">
+    <div class="container">
+      <div class="image-container">
+        <img src="/img/Codex.png" id="slideshow" />
+      </div>
+
+      <div id="caption">
+        <h5>CodeX Academy</h5>
+      </div>
+
+      <div class="">
+        <a class="a-l" href="#" onclick="changeImage(-1); return false;">
+          Previous Slide</a
+        >
+
+        <a class="a-l" href="#" onclick="changeImage(1); return false;">
+          Next Slide</a
+        >
+      </div>
+    </div>
+
+    <footer>
+      <a href="./index.html">Home</a>
+    </footer>
+    <script src="/js/slideshow.js"></script>
+  </body>
+</html>
