@@ -80,7 +80,7 @@ p {
   font-size: 40px;
   justify-content: space-evenly;
   font-style: bold;
-  color: black;
+  color: white;
 }
 
 /* about us styles */
@@ -116,7 +116,3 @@ article {
   flex-direction: column;
   gap: 100px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> be57a277bfedca57850536252578cebbe235b7ae
