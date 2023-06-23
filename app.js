@@ -59,7 +59,6 @@ function lakeCount() {
 }
 
 
-
 //Start of Mu Code
 chart;
 let ctx = document.getElementById("canvas-chart-b");
@@ -85,22 +84,13 @@ let dataObj = {
 
 // Where i stopped working on  Next person start five lines below me!
 
-// andrea slide show 
 
 
-
-// Beginning of Justin's code
-let ctxx = document.getElementById("canvas-chart");
-
-let ctxx1 = new Chart(chart, {
-  type: "bar",
-=======
 //Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
 ctx1 = new Chart(chart, {
   type: "pie",
-
   data: {
     labels: [
       "Largemouth bass",
