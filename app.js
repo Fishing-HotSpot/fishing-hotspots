@@ -84,29 +84,4 @@ let dataObj = {
 
 //Start of Andrea Code
 
-let images = ["slide1", "slide2", "slide3", "slide4"];
 
-let caption = [
-  "caption for slide 1",
-  "caption for slide 2",
-  "caption for slide 3",
-  "caption for slide 4",
-];
-
-let imageNumer = 0;
-let imgelength = image.length - 1;
-
-function changeImage(x) {
-  imageNumer += x;
-  // if you reached the end of array start over
-  if (imageNumer > imgelength) {
-    imageNumer = 0;
-  }
-  if (imageNumer < 0) {
-    imageNumer = imgelength;
-  }
-  document.getElementById("slidshow").src = images[imageNumer];
-  document.getElementById("caption").innerHTML = caption[imageNumer];
-
-  return false;
-}
