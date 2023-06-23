@@ -58,7 +58,6 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-
 //Start of Mu Code
 chart;
 let ctx = document.getElementById("canvas-chart-b");
@@ -81,29 +80,33 @@ let dataObj = {
   },
 };
 
-
 // Where i stopped working on  Next person start five lines below me!
 
+//Start of Andrea Code
 
-//Start of Justin Code
-let ctx1 = document.getElementById("chart-canvas");
+let images = ["slide1", "slide2", "slide3", "slide4"];
 
-ctx1 = new Chart(chart, {
-  type: "pie",
-  data: {
-    labels: [
-      "Largemouth bass",
-      "White bass",
-      "Bluegill",
-      "Striped bass",
-      "Smallmouth bass",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [],
-      },
-    ],
-  },
-  options: {},
-});
+let caption = [
+  "caption for slide 1",
+  "caption for slide 2",
+  "caption for slide 3",
+  "caption for slide 4",
+];
+
+let imageNumer = 0;
+let imgelength = image.length - 1;
+
+function changeImage(x) {
+  imageNumer += x;
+  // if you reached the end of array start over
+  if (imageNumer > imgelength) {
+    imageNumer = 0;
+  }
+  if (imageNumer < 0) {
+    imageNumer = imgelength;
+  }
+  document.getElementById("slidshow").src = images[imageNumer];
+  document.getElementById("caption").innerHTML = caption[imageNumer];
+
+  return false;
+}
