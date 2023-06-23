@@ -85,3 +85,6 @@ let dataObj = {
 //Start of Andrea Code
 
 
+//Start of Justin Code
+let ctx1 = document.getElementById("chart-canvas");
+
