@@ -1,3 +1,34 @@
+<<<<<<< HEAD
+'use strict'
+
+let chart = document.getElementById("canvas-chart").getContext("2d");
+
+let chartData = {
+    labels: ["Largemouth Bass", "White Bass", "Blue Gill", "Striped Bass", "Smallmouth Bass"],
+    datasets: [
+        {
+            label: "Fish Population",
+            data: [25000, 16000, 12500, 10000, 17600],
+        },
+    ],
+};
+
+let chart1 = new Chart(chart, {
+    type: "bar",
+    data: chartData,
+    options: {},
+});
+
+// function Lake(name, fishPopulation) {
+//     this.name = name;
+//     this.fishPopulation = fishPopulation;
+// }
+
+// let searchEngine = [
+//     new Lake("Radnor", [12000, 1000, 1200, 10000]),
+//     new Lake("Percy Priest", [2000, 18000, 10200, 5000]),
+//     new Lake("Old Hickory", [12000, 15000, 12200, 10000, 16000]),
+=======
 // “use strict”;
 // let hours = [“8am”, “9am”, “10am”, “11am”, “12pm”];
 // let storesArray = [
@@ -36,6 +67,7 @@
 //             avgCookiesPerSale: 4.6,
 //                 salesPerHour: [],
 //   },
+>>>>>>> main
 // ];
 // function getRandomInt(min, max) {
 //     min = Math.ceil(min);
