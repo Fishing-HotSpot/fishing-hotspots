@@ -22,10 +22,6 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 [Stack Overflow](https://stackoverflow.com/)
 
-[Wikipedia](https://en.wikipedia.org/wiki/Old_Hickory_Lake)
-
-[TN.Gov](https://www.tn.gov/twra/fishing/where-to-fish/middle-tennessee-r2/old-hickory-reservoir.)
-
 
 ### Lighthouse Accessibility Report Score
 
