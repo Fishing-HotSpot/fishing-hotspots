@@ -1,21 +1,21 @@
-'use strict'
+"use strict";
 
 let chart = document.getElementById("canvas-chart").getContext("2d");
 
 let chartData = {
-    labels: ["Bass", "Catfish", "Trout", "Blue Gill"],
-    datasets: [
-        {
-            label: "Fish Population",
-            data: [22000, 18000, 12200, 10000],
-        },
-    ],
+  labels: ["Bass", "Catfish", "Trout", "Blue Gill"],
+  datasets: [
+    {
+      label: "Fish Population",
+      data: [22000, 18000, 12200, 10000],
+    },
+  ],
 };
 
 let chart1 = new Chart(chart, {
-    type: "bar",
-    data: chartData,
-    options: {},
+  type: "bar",
+  data: chartData,
+  options: {},
 });
 
 // function Lake(name, fishPopulation) {
@@ -56,6 +56,4 @@ let chart1 = new Chart(chart, {
 //     });
 
 //     chart1.update();
-    // searchInput.value = "";
-
-
+// searchInput.value = "";
