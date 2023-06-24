@@ -127,3 +127,27 @@ article {
   margin: 55px;
   padding-top: 15px;
 }
+
+.a-b {
+  font-size: 40px;
+  justify-content: space-evenly;
+  font-style: italic;
+  text-align: center;
+  padding: 40px;
+  margin: 60px;
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.person-container {
+  padding: 50px;
+  font-size: bold;
+  font-style: italic;
+}
+
+p {
+  border: solid black 5px;
+  padding: 10px;
+  margin: 55px;
+}
