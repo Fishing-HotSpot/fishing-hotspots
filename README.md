@@ -5,14 +5,8 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 ### Authors: Brian Kimbrow, Jusin Agim, Ajamu Page, Andrea Malone
 
 ### Links and Resources
-<<<<<<< HEAD
 [Wikipedia](https://en.wikipedia.org/wiki/Old_Hickory_Lake)
 
-=======
-
-[Wikipedia](https://en.wikipedia.org/wiki/Old_Hickory_Lake)
-
->>>>>>> main
 [TN.gov](https://www.tn.gov/twra/fishing/where-to-fish/middle-tennessee-r2/old-hickory-reservoir.)
 
 [Youtube](https://www.youtube.com/)
@@ -27,13 +21,10 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 [Stack Overflow](https://stackoverflow.com/)
 
-[Wikipedia](https://en.wikipedia.org/wiki/Old_Hickory_Lake)
-
-[TN.Gov](https://www.tn.gov/twra/fishing/where-to-fish/middle-tennessee-r2/old-hickory-reservoir.)
-
 
 ### Lighthouse Accessibility Report Score
 
 
 
 ### Reflections and Comments
+Mu:  This was a great team project.  I learned alot from working with a group on this project.  
