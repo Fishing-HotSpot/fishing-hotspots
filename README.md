@@ -2,7 +2,7 @@
 
 # Description of the project 
 
-This where everyone will contribute on what was used to accomplish our goals.
+Fishing HotSpots project was created to showcase three of Tennessee's hottest fishing spots and also, to provide data on different species of fish in those said spots.  Users are then able to vote on which lake is the hottest spot amongst the three which are:  Old Hickory, Percy Priest, and Radnor Lakes.  
 
 ### Authors: Brian Kimbrow, Jusin Agim, Ajamu Page, Andrea Malone
 
