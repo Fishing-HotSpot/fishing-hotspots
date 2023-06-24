@@ -135,3 +135,15 @@ article {
   color: black;
   font-weight: bolder;
 }
+
+.person-container {
+  padding: 50px;
+  font-size: bold;
+  font-style: italic;
+}
+
+p {
+  border: solid black 5px;
+  padding: 10px;
+  margin: 55px;
+}
