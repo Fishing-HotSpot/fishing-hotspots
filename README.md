@@ -27,6 +27,13 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 ![Lighthouse Image](</img/Screenshot%20(250).png>)
 
 ### Reflections and Comments
+<<<<<<< HEAD
+=======
+
+ 
+ ### Ajamu Page 
+ This was a great team project.  I learned alot from working with a group on this project. All and all I am impressed with what we created.  
+>>>>>>> main
 
 ### Ajamu Paige
 
@@ -38,4 +45,8 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 ### Andrea Malone
 
+<<<<<<< HEAD
 ### Justin Agim
+=======
+
+>>>>>>> main
