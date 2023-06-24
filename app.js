@@ -58,7 +58,6 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-
 //Start of Mu Code
 chart;
 let ctx = document.getElementById("canvas-chart-b");
@@ -81,30 +80,11 @@ let dataObj = {
   },
 };
 
-
 // Where i stopped working on  Next person start five lines below me!
 
+//Start of Andrea Code
 
 
 //Start of Justin Code
 let ctx1 = document.getElementById("chart-canvas");
 
-ctx1 = new Chart(chart, {
-  type: "pie",
-  data: {
-    labels: [
-      "Largemouth bass",
-      "White bass",
-      "Bluegill",
-      "Striped bass",
-      "Smallmouth bass",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [],
-      },
-    ],
-  },
-  options: {},
-});
