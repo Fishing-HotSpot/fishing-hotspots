@@ -58,33 +58,38 @@ function lakeCount() {
   searchInput.value = "";
 }
 
-//Start of Mu Code
-chart;
-let ctx = document.getElementById("canvas-chart-b");
-let dataObj = {
-  type: "line",
-  data: {
-    labels: [
-      "Largemouth Bass",
-      "Crappie",
-      "Striped Bass",
-      "Sauger",
-      "Channel Catfish",
-    ],
-    datasets: [
-      {
-        label: "Fish Population",
-        data: [22000, 18000, 12200, 10000, 16000],
-      },
-    ],
-  },
-};
 
-// Where i stopped working on  Next person start five lines below me!
+// Slideshow 
 
-//Start of Andrea Code
+let images = ["/img/andrea.jpg", "/img/brian.jpg", "/img/justin.jpg", "/img/mu.jpg"];
+let caption = [
+  "Andrea Malone - Installation Specialist",
+  "Brian Kimbrow - Intern 40AU", 
+  "Justin Agim - Auto Technician ", 
+  "Ajamu Page - GED Instructor "
+
+];
+
+let imageNumber = 0;
+let imageLength = images.length - 1;
+
+function changeImage(X) {
+  imageNumber += X;
+  if (imageNumber > imageLength) {
+    imageNumber = 0;
+  }
+  if (imageNumber < 0) {
+    imageNumber = imageLength;
+  }
+  document.getElementById("slideshow").src = images[imageNumber];
+  document.getElementById("caption").innerHTML = caption[imageNumber];
+  return false;
+}
+
+function autoRun() {
+  setInterval(changeImage, 6000, 1);
+}
 
 
-//Start of Justin Code
-let ctx1 = document.getElementById("chart-canvas");
+
 
