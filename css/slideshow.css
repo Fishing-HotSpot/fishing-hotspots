@@ -1,0 +1,32 @@
+#slideshow {
+    width: 135px; /* Adjust the width as per your requirement */
+    height: 200px; /* Adjust the height as per your requirement */
+    justify-content: center;
+    align-items: center;
+    ;
+  }
+
+  body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 200px;
+  } 
+
+  .a-l {
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    
+  }
+
+  h1 {
+    margin-right: auto;
+  }
+
+  .a-bhome {
+    margin: 100px;
+  }
