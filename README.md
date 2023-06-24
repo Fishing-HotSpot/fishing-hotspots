@@ -37,7 +37,9 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 ### Andrea Malone
 
+This project was a great experience and very challenging.I enjoyed working with the team and correcting rigorous Issues.
 
 ### Justin Agim
 
+I found this project to be very challenging because we had to all come together to make everything function correctly. I found this very helpful and I look forward future projects.
 
