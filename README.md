@@ -24,7 +24,7 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 ### Lighthouse Accessibility Report Score
 
-
+![Lighthouse Image](/img/Screenshot%20(250).png)
 
 ### Reflections and Comments
 Mu:  This was a great team project.  I learned alot from working with a group on this project.  
