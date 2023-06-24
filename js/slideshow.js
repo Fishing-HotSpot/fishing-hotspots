@@ -5,6 +5,7 @@ let images = [
   "/img/justin.jpg",
   "/img/mu.jpg",
 ];
+
 let caption = [
   "Andrea Malone - Installation Specialist",
   "Brian Kimbrow - Intern 40AU",
