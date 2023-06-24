@@ -33,7 +33,8 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 ### Brian Kimbrow
 
-    This project was great. I had the opportunity to work with my teammates and we were able to accomplish our goals and more. I think having a team and working through difficult tasks is amazing because everyone had to the opportunity to explore how we all think firm a technical standpoint.
+This project was great. I had the opportunity to work with my teammates and we were able to accomplish our goals and more. I Look forward to whats next.
+
 
 ### Andrea Malone
 
