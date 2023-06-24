@@ -28,7 +28,6 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
 
 ### Reflections and Comments
 
-
 ### Ajamu Page 
  This was a great team project.  I learned alot from working with a group on this project. All and all I am impressed with what we created.  
 
@@ -37,4 +36,8 @@ Fishing HotSpots project was created to showcase three of Tennessee's hottest fi
     This project was great. I had the opportunity to work with my teammates and we were able to accomplish our goals and more. I think having a team and working through difficult tasks is amazing because everyone had to the opportunity to explore how we all think firm a technical standpoint.
 
 ### Andrea Malone
+
+
+### Justin Agim
+
 
