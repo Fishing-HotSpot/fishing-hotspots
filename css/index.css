@@ -9,7 +9,7 @@
 
 #main-page {
   text-align: center;
-  background-image: url("/img/john-sekutowski-3nalUfmyG-s-unsplash.jpg");
+  background-image: url("../img/john-sekutowski-3nalUfmyG-s-unsplash.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
