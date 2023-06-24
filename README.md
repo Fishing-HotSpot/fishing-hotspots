@@ -9,17 +9,17 @@ This where everyone will contribute on what was used to accomplish our goals.
 
 ### Links and Resources
 
-https://www.youtube.com/
+[Youtube](https://www.youtube.com/)
 
-https://www.codecademy.com/learn
+[Code Academy](https://www.codecademy.com/learn)
 
-https://developer.mozilla.org/en-US/docs/Web/JavaScript
+[Mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-https://trello.com/b/jlNRyWlg/fishing-hotspots
+[Trello](https://trello.com/b/jlNRyWlg/fishing-hotspots)
 
-https://www.w3schools.com/jsref/jsref_includes.asp
+[w3shools](https://www.w3schools.com/jsref/jsref_includes.asp)
 
-https://stackoverflow.com/
+[Stack Overflow](https://stackoverflow.com/)
 
 
 ### Lighthouse Accessibility Report Score
