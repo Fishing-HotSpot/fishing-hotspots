@@ -28,6 +28,7 @@
 }
 
 h1 {
+  padding: 30px;
   text-align: center;
 }
 
@@ -60,6 +61,7 @@ p {
 
 #link {
   margin-top: 20px;
+  margin-bottom: 40px;
   text-align: center;
   display: flex;
   justify-content: space-evenly;
