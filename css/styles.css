@@ -53,6 +53,10 @@ body {
   font-style: italic;
 }
 
+#hyperlink {
+  margin-bottom: 40px;
+}
+
 #percy-b {
   background-color: burlywood;
   font-size: x-large;
